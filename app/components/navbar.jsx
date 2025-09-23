@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 text-gray-700 font-medium">
             <a href="#" className="hover:text-pink-600 transition">Home</a>
-            <a href="#" className="hover:text-pink-600 transition">Collections</a>
+            <a href="ui/products" className="hover:text-pink-600 transition">Product</a>
             <a href="#" className="hover:text-pink-600 transition">About</a>
             <a href="#" className="hover:text-pink-600 transition">Contact</a>
           </div>
