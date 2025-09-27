@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section className="min-h-screen bg-gradient-to-b from-white via-pink-50 to-white py-20 px-6 lg:px-20">
+      <section id="about-us" className="min-h-screen bg-gradient-to-b from-white via-pink-50 to-white py-20 px-6 lg:px-20">
         <div className="max-w-5xl mx-auto space-y-16">
           {/* Header */}
           <div className="text-center space-y-4">

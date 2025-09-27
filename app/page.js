@@ -6,7 +6,7 @@ export default function App() {
     <div>
      
       <Hero />
-      <About/>
+      {/* <About/> */}
     </div>
   );
 }
