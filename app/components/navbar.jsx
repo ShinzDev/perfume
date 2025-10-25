@@ -14,19 +14,19 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="text-2xl font-serif tracking-wide text-gray-800">
-            Essence
+            Niniscents
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 text-gray-700 font-medium">
             <Link href="/" className="hover:text-pink-600 transition">Home</Link>
-            <Link href="ui/products" className="hover:text-pink-600 transition">Product</Link>
+            <Link href="ui/products" className="hover:text-pink-600 transition">Collections</Link>
             <Link href="#about-us"  className="hover:text-pink-600 transition">About</Link>
             <Link href="#" className="hover:text-pink-600 transition">Contact</Link>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden transition-all  ">
             <button
               onClick={() => setOpen(!open)}
               className="text-gray-700 focus:outline-none"
